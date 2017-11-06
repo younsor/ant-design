@@ -79,7 +79,7 @@ describe('As Form Control', () => {
 });
 
 describe('Input.Search', () => {
-  it('should support suffix', async () => {
+  fit('should support suffix', async () => {
     const wrapper = mount(
       <Input.Search suffix="suffix" />
     );
